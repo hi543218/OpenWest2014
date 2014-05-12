@@ -221,7 +221,7 @@ void startupBlink(){
 	strip.setPixelColor(0, 0, 0, 0); strip.setPixelColor(1, 0, 0, 0);
 	strip.setPixelColor(2, 0, 0, 0); strip.setPixelColor(3, 0, 0, 0);
 	strip.show();
-	delay(150);
+	delay(550);
 
 	strip.setPixelColor(0, 100, 0, 0); strip.setPixelColor(1, 0, 100, 0);
 	strip.setPixelColor(2, 0, 0, 100); strip.setPixelColor(3, 100, 100, 100);
